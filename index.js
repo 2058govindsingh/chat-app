@@ -9,7 +9,10 @@ const io = new Server(server);
 
 // Socket.io
 io.on("connection", (socket) => {
-  console.log("A new user has connected ", socket.id);
+  socket.on("user-message", (message) => {
+    console.log("A new user message: ", message);
+    io.emit('message', message);
+  });
 });
 
 // Express
