@@ -6,7 +6,7 @@ This is a simple chat application built using Node.js, Express, and Socket.io. U
 
 Make sure you have the following installed on your machine:
 
-- Node.js: [Download Node.js](https://nodejs.org/)
+- Node.js: [Download Node.js]
 
 ## Getting Started
 
